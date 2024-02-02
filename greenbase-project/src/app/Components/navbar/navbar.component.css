@@ -1,0 +1,10 @@
+.nav-item{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar{
+  width: 1440px;
+  max-width: 1440px;
+}
