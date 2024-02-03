@@ -1,5 +1,10 @@
 # Greenbase-Project
 
+## Live Deployment
+
+Check out the app at
+https://modernize-gold.vercel.app/
+
 ## Task Description
 
 The task was to build a mock screen based on a figma design document for an ecommerce platform called Modernize.
