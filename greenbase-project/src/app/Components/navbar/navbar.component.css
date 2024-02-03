@@ -59,7 +59,7 @@ text-align: left;
 
   .profile{
     margin-left: 36px;
-    margin-right: 16px;
+    margin-right: 36px;
     width: 185px;
     height: 36px;
     display: flex;
@@ -67,7 +67,7 @@ text-align: left;
 
   .profile a{
     color: #5a607f;
-    width: 93px;
+    width: 113px;
     margin-right: 20px;
     font-family: Inter;
     font-size: 14px;
