@@ -10,7 +10,18 @@
   </div>
   <div class="grid-cards">
     <div class="card" *ngFor="let category of mockCategoryData">
-      <div>
+
+
+      <div class="category-image-wrapper">
+        <div class="hover-overlay">
+          <button class="edit-btn">
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M15 16C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18H1C0.447715 18 0 17.5523 0 17C0 16.4477 0.447715 16 1 16H15ZM14.003 0.584917L15.4151 1.99703C16.195 2.77692 16.195 4.04137 15.4151 4.82126L7.17775 13.0586C7.02498 13.2114 6.82678 13.3105 6.61291 13.341L2 14L2.65899 9.38709C2.68954 9.17322 2.78864 8.97502 2.94141 8.82225L11.1787 0.584917C11.9586 -0.194972 13.2231 -0.194972 14.003 0.584917ZM12.5909 1.99703L4.58911 9.99878L4.35399 11.646L6.00122 11.4109L14.003 3.40914L12.5909 1.99703Z" fill="#1E5EFF"/>
+            </svg>
+            <span>
+            Edit
+          </span></button>
+        </div>
         <img src={{category.imgSrc}} alt="category.title" class="img-responsive">
       </div>
       <div class="category-name">
@@ -19,12 +30,5 @@
       </div>
     </div>
 
-</div>
-
-      <!-- edit SVG hover image-->
-      <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 19C19.5523 19 20 19.4477 20 20C20 20.5523 19.5523 21 19 21H5C4.44772 21 4 20.5523 4 20C4 19.4477 4.44772 19 5 19H19ZM18.003 3.58492L19.4151 4.99703C20.195 5.77692 20.195 7.04137 19.4151 7.82126L11.1778 16.0586C11.025 16.2114 10.8268 16.3105 10.6129 16.341L6 17L6.65899 12.3871C6.68954 12.1732 6.78864 11.975 6.94141 11.8222L15.1787 3.58492C15.9586 2.80503 17.2231 2.80503 18.003 3.58492ZM16.5909 4.99703L8.58911 12.9988L8.35399 14.646L10.0012 14.4109L18.003 6.40914L16.5909 4.99703Z" fill="#1E5EFF"/>
-        </svg> -->
-
-    <!-- </div> -->
   </div>
+</div>
